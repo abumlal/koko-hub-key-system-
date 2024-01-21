@@ -1,0 +1,36 @@
+{
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000000;  /* Black background color */
+        color: #ffffff;  /* White text color */
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #333333;  /* Dark gray container background color */
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #61dafb;  /* Accent color for headings */
+    }
+    
+    button {
+        padding: 10px 15px;
+        background-color: #61dafb;  /* Accent color for buttons */
+        color: #ffffff;  /* White text color */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #4fa3d1;  /* Darker color on hover */
+    }
+    
